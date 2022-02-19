@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "gill sans";
+}
+
+h1{
+    padding-bottom: 30px;
+    
+}
+
+a{
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.image{
+    text-align: center;
+}
+
+.women{
+    padding-bottom: 20px;
+    border-bottom: gray 1px solid;
+}

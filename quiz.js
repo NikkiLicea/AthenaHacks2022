@@ -85,8 +85,8 @@
   {
       question: "Nancy Johnson created the _____.",
       optionA: "Fridge",
-      optionB: "Ice Cream Maker",
-      optionC: "Percy Spencer",
+      optionB: "Microwave",
+      optionC: "Toaster",
       optionD: "Ice Cream Maker",
       correctOption: "optionD"
   },

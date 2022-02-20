@@ -2,231 +2,103 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
   {
-      question: "How many days makes a week ?",
-      optionA: "10 days",
-      optionB: "14 days",
-      optionC: "5 days",
-      optionD: "7 days",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "How many players are allowed on a soccer pitch ?",
-      optionA: "10 players",
-      optionB: "11 players",
-      optionC: "9 players",
-      optionD: "12 players",
+      question: "Who was the first woman to run for President of the United States (1872)?",
+      optionA: "Elizabeth Blackwell",
+      optionB: "Victoria Woodhull",
+      optionC: "Katherine Graham",
+      optionD: "Hillary Clinton",
       correctOption: "optionB"
   },
 
   {
-      question: "Who was the first President of USA ?",
-      optionA: "Donald Trump",
-      optionB: "Barack Obama",
-      optionC: "Abraham Lincoln",
-      optionD: "George Washington",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "30 days has ______ ?",
-      optionA: "January",
-      optionB: "December",
-      optionC: "June",
-      optionD: "August",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "How manay hours can be found in a day ?",
-      optionA: "30 hours",
-      optionB: "38 hours",
-      optionC: "48 hours",
-      optionD: "24 hours",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Which is the longest river in the world ?",
-      optionA: "River Nile",
-      optionB: "Long River",
-      optionC: "River Niger",
-      optionD: "Lake Chad",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "_____ is the hottest Continent on Earth ?",
-      optionA: "Oceania",
-      optionB: "Antarctica",
-      optionC: "Africa",
-      optionD: "North America",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "Which country is the largest in the world ?",
-      optionA: "Russia",
-      optionB: "Canada",
-      optionC: "Africa",
-      optionD: "Egypt",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "Which of these numbers is an odd number ?",
-      optionA: "Ten",
-      optionB: "Twelve",
-      optionC: "Eight",
-      optionD: "Eleven",
-      correctOption: "optionD"
-  },
-
-  {
-      question: `"You Can't see me" is a popular saying by`,
-      optionA: "Eminem",
-      optionB: "Bill Gates",
-      optionC: "Chris Brown",
-      optionD: "John Cena",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Where is the world tallest building located ?",
-      optionA: "Africa",
-      optionB: "California",
-      optionC: "Dubai",
-      optionD: "Italy",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "The longest river in the United Kingdom is ?",
-      optionA: "River Severn",
-      optionB: "River Mersey",
-      optionC: "River Trent",
-      optionD: "River Tweed",
-      correctOption: "optionA"
-  },
-
-
-  {
-      question: "How many permanent teeth does a dog have ?",
-      optionA: "38",
-      optionB: "42",
-      optionC: "40",
-      optionD: "36",
+      question: "Who wrote the first version of the Equal Rights Amendment, in 1923?",
+      optionA: "Mary McLeod Bethune",
+      optionB: "Shirley Chisholm",
+      optionC: "Toni Morrison",
+      optionD: "Rosa Parks",
       correctOption: "optionB"
   },
 
   {
-      question: "Which national team won the football World cup in 2018 ?",
-      optionA: "England",
-      optionB: "Brazil",
-      optionC: "Germany",
-      optionD: "France",
+      question: "Who was the first Chinese-American woman ever elected to hold a statewide office in the United States?",
+      optionA: "Elaine Chao",
+      optionB: "Michelle Chau",
+      optionC: "Peiying Ye",
+      optionD: "March Fong Eu",
       correctOption: "optionD"
   },
 
   {
-      question: "Which US state was Donald Trump Born ?",
-      optionA: "New York",
-      optionB: "California",
-      optionC: "New Jersey",
-      optionD: "Los Angeles",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "How man states does Nigeria have ?",
-      optionA: "24",
-      optionB: "30",
-      optionC: "36",
-      optionD: "37",
+      question: "Who is the creator of the FLOW-MATIC programming language?",
+      optionA: "Ada Lovelace",
+      optionB: "Katherine Johnson",
+      optionC: "Grace Hopper",
+      optionD: "Adele Goldberg",
       correctOption: "optionC"
   },
 
   {
-      question: "____ is the capital of Nigeria ?",
-      optionA: "Abuja",
-      optionB: "Lagos",
-      optionC: "Calabar",
-      optionD: "Kano",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "Los Angeles is also known as ?",
-      optionA: "Angels City",
-      optionB: "Shining city",
-      optionC: "City of Angels",
-      optionD: "Lost Angels",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "What is the capital of Germany ?",
-      optionA: "Georgia",
-      optionB: "Missouri",
-      optionC: "Oklahoma",
-      optionD: "Berlin",
+      question: "Who was the first female artist to win a Grammy for Album of the Year?",
+      optionA: "Ella Fitzgerald",
+      optionB: "Taylor Swift",
+      optionC: "Liza Minnelli",
+      optionD: "Judy Garland",
       correctOption: "optionD"
   },
 
   {
-      question: "How many sides does an hexagon have ?",
-      optionA: "Six",
-      optionB: "Sevene",
-      optionC: "Four",
-      optionD: "Five",
+      question: "Who was the first woman to earn a medical degree in the United States?",
+      optionA: "Elizabeth Blackwell",
+      optionB: "Mary Keller",
+      optionC: "Marie Curie",
+      optionD: "Virgina Apgar",
       correctOption: "optionA"
   },
 
   {
-      question: "How many planets are currently in the solar system ?",
-      optionA: "Eleven",
-      optionB: "Seven",
-      optionC: "Nine",
-      optionD: "Eight",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Which Planet is the hottest ?",
-      optionA: "Jupitar",
-      optionB: "Mercury",
-      optionC: "Earth",
-      optionD: "Venus",
-      correctOption: "optionB"
-  },
-
-  {
-      question: "where is the smallest bone in human body located?",
-      optionA: "Toes",
-      optionB: "Ears",
-      optionC: "Fingers",
-      optionD: "Nose",
-      correctOption: "optionB"
-  },
-
-  {
-      question: "How many hearts does an Octopus have ?",
-      optionA: "One",
-      optionB: "Two",
-      optionC: "Three",
-      optionD: "Four",
+      question: "The first Women's History Day was held in _____?",
+      optionA: "1926",
+      optionB: "1878",
+      optionC: "1909",
+      optionD: "1899",
       correctOption: "optionC"
   },
 
   {
-      question: "How many teeth does an adult human have ?",
-      optionA: "28",
-      optionB: "30",
-      optionC: "32",
-      optionD: "36",
+      question: "Women Providing Healing, Promoting Hope is the _____ Women's History Month theme.",
+      optionA: "2022",
+      optionB: "2021",
+      optionC: "2020",
+      optionD: "2019",
+      correctOption: "optionA"
+  },
+
+  {
+      question: "Women couldn't get credit cards on their own until _____?",
+      optionA: "1958",
+      optionB: "1962",
+      optionC: "1985",
+      optionD: "1974",
+      correctOption: "optionD"
+  },
+
+  {
+      question: "Nancy Johnson created the _____.",
+      optionA: "Fridge",
+      optionB: "Ice Cream Maker",
+      optionC: "Percy Spencer",
+      optionD: "Ice Cream Maker",
+      correctOption: "optionD"
+  },
+
+  {
+      question: "Women make up _____ percent of the labor force.",
+      optionA: "62.3",
+      optionB: "51.1",
+      optionC: "57.8",
+      optionD: "47,9",
       correctOption: "optionC"
   }
-
 ]
 
 

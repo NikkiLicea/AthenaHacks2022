@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Verdana";
   
 }
+
 
 html, body{
   height: 100%;
@@ -20,7 +22,6 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 5%;
   position: relative;
 }
 

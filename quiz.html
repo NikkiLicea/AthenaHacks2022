@@ -3,29 +3,124 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="quiz.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="flip_animation.css">
+<link rel="stylesheet" href="quiz.css">
+
 <body>
 
 <title>Women's History Month Quiz</title>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Women's</b> History Month</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#women in tech" class="w3-bar-item w3-button">Women In Tech</a>
-      <a href="#quiz" class="w3-bar-item w3-button">Quiz</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+      <a href="website.html" class="w3-bar-item w3-button"><b>Women's</b> History Month</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="women_in_tech.html" class="w3-bar-item w3-button">Women In Tech</a>
+        <a href="quiz.html" class="w3-bar-item w3-button">Quiz</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="w3-content w3-padding" style="max-width:1564px">
-  
+<!-- <div class="padding-top: 30px"> -->
+<body onload="NextQuestion(0)">
+  <main>
+
+    <div style="width: 50%; color: #e91e63; text-align: center; background-image: url(WomenOnStools.jpg);">
+		<h1>Test Your Knowledge!</h1>
+	</div>
+
+      <!-- creating a modal for when quiz ends -->
+      <div class="modal-container" id="score-modal">
+
+          <div class="modal-content-container">
+
+              <h1>Congratulations, Quiz Completed.</h1>
+
+              <div class="grade-details">
+                  <p>Attempts : 10</p>
+                  <p>Wrong Answers : <span id="wrong-answers"></span></p>
+                  <p>Right Answers : <span id="right-answers"></span></p>
+                  <p>Grade : <span id="grade-percentage"></span>%</p>
+                  <p ><span id="remarks"></span></p>
+              </div>
+
+              <div class="modal-button-container">
+                  <button onclick="closeScoreModal()">Continue</button>
+              </div>
+
+          </div>
+      </div>
+  <!-- end of modal of quiz details-->
+
+      <div class="game-quiz-container">
+
+          <div class="game-details-container">
+              <h1>Score : <span id="player-score"></span> / 10</h1>
+              <h1> Question : <span id="question-number"></span> / 10</h1>
+          </div>
+
+          <div class="game-question-container">
+              <h1 id="display-question"></h1>
+          </div>
+
+          <div class="game-options-container">
+
+             <div class="modal-container" id="option-modal">
+
+                  <div class="modal-content-container">
+                       <h1>Please Pick An Option</h1>
+
+                       <div class="modal-button-container">
+                          <button onclick="closeOptionModal()">Continue</button>
+                      </div>
+
+                  </div>
+
+             </div>
+
+              <span>
+                  <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                  <label for="option-one" class="option" id="option-one-label"></label>
+              </span>
+
+
+              <span>
+                  <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                  <label for="option-two" class="option" id="option-two-label"></label>
+              </span>
+
+
+              <span>
+                  <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                  <label for="option-three" class="option" id="option-three-label"></label>
+              </span>
+
+
+              <span>
+                  <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                  <label for="option-four" class="option" id="option-four-label"></label>
+              </span>
+
+
+          </div>
+
+          <div class="next-button-container">
+              <button onclick="handleNextQuestion()">Next Question</button>
+          </div>
+
+      </div>
+  </main>
+  <script src="./quiz.js"></script>
+</body>
+<!-- </div> -->
+
+
+
+
+<!-- <div class="w3-content w3-padding" style="max-width:1564px; font-family: Segoe UI,Arial,sans-serif;">
   <div class="w3-container w3-padding-32">
     <div class="quiz-container">
       <div id="quiz"></div>
@@ -35,6 +130,6 @@
     <button id="submit">Submit Quiz</button>
     <div id="results"></div>
   </div>
-</div>
+</div> -->
 
-<script src="./quiz.js"></script>
+

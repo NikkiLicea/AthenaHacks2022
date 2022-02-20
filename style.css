@@ -4,19 +4,26 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: "gill sans";
+    font-family: "Verdana";
+ 
 }
 
 h1{
     padding-bottom: 30px;
+    color: #e91e63;
     
 }
 
 a{
-    color: black; 
+    color: black;
     background-color: transparent; 
     text-decoration: none;
 }
+
+a:hover {
+    color: #e91e63;
+  }
+  
 
 .image{
     text-align: center;

@@ -9,8 +9,10 @@
 }
 
 h1{
+    padding-top: 30px;
     padding-bottom: 30px;
     color: #e91e63;
+    background-image: url("WomenOnStools.jpg");
     
 }
 
@@ -22,7 +24,7 @@ a{
 
 a:hover {
     color: #e91e63;
-  }
+}
   
 
 .image{

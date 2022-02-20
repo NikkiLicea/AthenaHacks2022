@@ -21,7 +21,7 @@ main{
   background-size: cover;
   background-position: center;
   padding-top: 5%;
-  position: center;
+  position: relative;
 }
 
 .game-quiz-container{
@@ -88,7 +88,7 @@ span label{
   cursor: pointer;
   transition: transform 0.3s;
   font-weight: 600;
-  color: rgb(22, 22, 22);
+  /* color: rgb(22, 22, 22); */
 }
 
 span label:hover{
@@ -121,7 +121,7 @@ input[type=radio]:checked ~ .option {
   border-radius: 10px;
   background: none;
   color: rgb(25, 25, 25);
-  font-weight: 600;
+  /* font-weight: 600; */
   border: 2px solid gray;
   cursor: pointer;
   outline: none;

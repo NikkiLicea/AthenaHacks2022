@@ -1,18 +1,40 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-    <link rel="stylesheet" href="quiz.css">
-</head>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="quiz.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="flip_animation.css">
+<body>
 
 <title>Women's History Month Quiz</title>
-<h1>Women's History Month Quiz</h1>
 
-<div class="quiz-container">
-  <div id="quiz"></div>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Women's</b> History Month</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#women in tech" class="w3-bar-item w3-button">Women In Tech</a>
+      <a href="#quiz" class="w3-bar-item w3-button">Quiz</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
 </div>
-<button id="previous">Previous Question</button>
-<button id="next">Next Question</button>
-<button id="submit">Submit Quiz</button>
-<div id="results"></div>
+
+<div class="w3-content w3-padding" style="max-width:1564px">
+  
+  <div class="w3-container w3-padding-32">
+    <div class="quiz-container">
+      <div id="quiz"></div>
+    </div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+  </div>
+</div>
 
 <script src="./quiz.js"></script>
